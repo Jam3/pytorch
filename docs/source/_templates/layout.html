@@ -39,6 +39,16 @@
 </div>
 {% endblock %}
 
+{% block version_list %}
+  {{ super() }}
+  {% if pagename == "versions" %}
+    <ul class="simple">
+      {% for item in static_versions %}
+        <li><a href="{{ item.url }}">{{ item.slug }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}
 
 {% block footer %}
 {{ super() }}
