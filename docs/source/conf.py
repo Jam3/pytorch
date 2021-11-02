@@ -55,6 +55,7 @@ extensions = [
     'sphinxcontrib.katex',
     'sphinx.ext.autosectionlabel',
     'sphinx_copybutton',
+    'sphinx_tabs.tabs',
 ]
 
 # build the templated autosummary files
@@ -458,3 +459,6 @@ TypedField.make_field = patched_make_field
 
 copybutton_prompt_text = r'>>> |\.\.\. '
 copybutton_prompt_is_regexp = True
+
+sphinx_tabs_disable_tab_closing = True
+sphinx_tabs_disable_css_loading = True

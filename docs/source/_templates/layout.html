@@ -50,6 +50,12 @@
   {% endif %}
 {% endblock %}
 
+{% block before_global_toc_sidebar %}
+  <p class="caption single-item{% if pagename == 'index' %} current{% endif %}">
+    <a class="caption-text reference internal" href="{{ pathto('index') }}">Overview</a>
+  </p>
+{% endblock %}
+
 {% block footer %}
 {{ super() }}
 <script script type="text/javascript">
