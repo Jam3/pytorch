@@ -210,34 +210,34 @@ flags, and are at an early stage for feedback and testing. `View All Prototype <
 
          community/*
       
-      +----+---------------------------------------------+
-      |    | **PyTorch Contribution Guide**              |
-      |    |                                             |
-      |    | Sed do eiusmod tempor incididunt ut         |
-      |    | labore et dolore magna unt ut               |
-      |    | labore magna unt ut labore et incididunt    |
-      |    | ut labore et dolore magna unt               |
-      |    |                                             |
-      |    | `View Details <https://pytorch.org>`_       |
-      +----+---------------------------------------------+
-      |    | **PyTorch Governance**                      |
-      |    |                                             |
-      |    | Sed do eiusmod tempor incididunt ut         |
-      |    | labore et dolore magna unt ut               |
-      |    | labore magna unt ut labore et incididunt    |
-      |    | ut labore et dolore magna unt               |
-      |    |                                             |
-      |    | `View Details <https://pytorch.org>`_       |
-      +----+---------------------------------------------+
-      |    | **PyTorch Governance | Person of Interest** |
-      |    |                                             |
-      |    | Sed do eiusmod tempor incididunt ut         |
-      |    | labore et dolore magna unt ut               |
-      |    | labore magna unt ut labore et incididunt    |
-      |    | ut labore et dolore magna unt               |
-      |    |                                             |
-      |    | `View Details <https://pytorch.org>`_       |
-      +----+---------------------------------------------+
+      +--+---------------------------------------------+
+      |  | **PyTorch Contribution Guide**              |
+      |  |                                             |
+      |  | Sed do eiusmod tempor incididunt ut         |
+      |  | labore et dolore magna unt ut               |
+      |  | labore magna unt ut labore et incididunt    |
+      |  | ut labore et dolore magna unt               |
+      |  |                                             |
+      |  | `View Details <https://pytorch.org>`_       |
+      +--+---------------------------------------------+
+      |  | **PyTorch Governance**                      |
+      |  |                                             |
+      |  | Sed do eiusmod tempor incididunt ut         |
+      |  | labore et dolore magna unt ut               |
+      |  | labore magna unt ut labore et incididunt    |
+      |  | ut labore et dolore magna unt               |
+      |  |                                             |
+      |  | `View Details <https://pytorch.org>`_       |
+      +--+---------------------------------------------+
+      |  | **PyTorch Governance | Person of Interest** |
+      |  |                                             |
+      |  | Sed do eiusmod tempor incididunt ut         |
+      |  | labore et dolore magna unt ut               |
+      |  | labore magna unt ut labore et incididunt    |
+      |  | ut labore et dolore magna unt               |
+      |  |                                             |
+      |  | `View Details <https://pytorch.org>`_       |
+      +--+---------------------------------------------+
       
    .. tab:: Notes
       
