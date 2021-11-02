@@ -12,24 +12,43 @@
 {% endblock %}
 
 {% block menu %}
-{% if release == "master" %}
-<div>
-  <a style="color:#F05732" href="{{ theme_canonical_url }}{{ pagename }}.html">
-    You are viewing unstable developer preview docs.
-    Click here to view docs for latest stable release.
-  </a>
-</div>
-{% endif %}
-{{ super() }}
+  {% if release == "master" %}
+    <div class="unstable">
+      <a href="{{ theme_canonical_url }}{{ pagename }}.html">
+        You are viewing unstable developer preview docs.
+        Click here to view docs for latest stable release.
+      </a>
+    </div>
+  {% endif %}
+  {{ super() }}
 {% endblock %}
 
 {% block sidebartitle %}
-    <div class="version">
-      <a href='https://pytorch.org/docs/versions.html'>{{ version }} &#x25BC</a>
-    </div>
-    {% include "searchbox.html" %}
+<div class="versions">
+  <select class="version-select">
+    {% for item in static_versions %}
+      <option value="{{ item.url }}">{{ item.slug }}</option>
+    {% endfor %}
+  </select>
+  <div class="current-version">{{ version }} <span></span></div>
+  <ul class="custom-select">
+    {% for item in static_versions %}
+      <li><a href="{{ item.url }}">{{ item.slug }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 {% endblock %}
 
+{% block version_list %}
+  {{ super() }}
+  {% if pagename == "versions" %}
+    <ul class="simple">
+      {% for item in static_versions %}
+        <li><a href="{{ item.url }}">{{ item.slug }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+{% endblock %}
 
 {% block footer %}
 {{ super() }}
