@@ -1,0 +1,36 @@
+body>img {
+    display:none;
+}
+
+/*Main Header exceptions*/
+.mainHeader {
+    height: 5rem;
+}
+@media screen and (min-width: 1600px) {
+    .mainHeader {
+        height: 8rem;
+    }
+}
+
+.mainHeader .container {
+    padding: 0;
+    margin-left: 2rem;
+    max-width: 34.8rem;
+}
+@media screen and (min-width: 1600px) {
+    .mainHeader .container {
+        margin: 0 10rem;
+        max-width: 100%;
+    }
+}
+
+.mainHeader svg {
+    width: 7rem;
+}
+@media screen and (min-width: 1600px) {
+    .mainHeader svg {
+        width: initial;
+    }
+}
+
+/*Main Footer exceptions*/s
