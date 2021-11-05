@@ -258,5 +258,5 @@ flags, and are at an early stage for feedback and testing. `View All Prototype <
    :hidden:
    :caption: Indices and tables
    
-   Index <https://pytorch.org/genindex.html>
-   Module Index <https://pytorch.org/py-modindex.html>  
+   genindex
+   py-modindex
