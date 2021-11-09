@@ -15,12 +15,11 @@ body>img {
 .mainHeader .container {
     padding: 0;
     margin-left: 2rem;
-    max-width: 34.8rem;
+    max-width: 100%;
 }
 @media screen and (min-width: 1600px) {
     .mainHeader .container {
         margin: 0 10rem;
-        max-width: 100%;
     }
 }
 

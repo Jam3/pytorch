@@ -1,2 +1,5 @@
+.. container:: genindex
+
 Index
 =====
+
