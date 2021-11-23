@@ -32,4 +32,9 @@ body>img {
     }
 }
 
-/*Main Footer exceptions*/s
+footer {
+    position: relative;
+    z-index: 1;
+}
+
+/*Main Footer exceptions*/

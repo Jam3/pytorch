@@ -245,12 +245,14 @@ flags, and are at an early stage for feedback and testing. `View All Prototype <
       
       Notes ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
 
-      .. toctree::
-         :glob:
-         :maxdepth: 1
-         :caption: Notes
+      .. container:: oneColumn
+         
+         .. toctree::
+            :glob:
+            :maxdepth: 1
+            :caption: Notes
 
-         notes/*
+            notes/*
 
 .. toctree::
    :glob:
