@@ -32,6 +32,10 @@ body>img {
     }
 }
 
+.mainHeader .container .content-container .mainNav .navItems .navItemsContainer .mainItem .parentTitle.docs {
+    color: #de3412;
+}
+
 footer {
     position: relative;
     z-index: 1;
