@@ -32,7 +32,8 @@ body>img {
     }
 }
 
-.mainHeader .container .content-container .mainNav .navItems .navItemsContainer .mainItem .parentTitle.docs {
+.mainHeader .container .content-container .mainNav .navItems .navItemsContainer .mainItem .parentTitle.docs.active,
+.mainHeader .container .content-container .mainNav .navItems .navItemsContainer .mainItem .parentTitle.tutorials.active {
     color: #de3412;
 }
 
