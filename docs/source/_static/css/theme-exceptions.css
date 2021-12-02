@@ -2,39 +2,30 @@ body>img {
     display:none;
 }
 
-/*Main Header exceptions*/
-.mainHeader {
-    height: 5rem;
-}
-@media screen and (min-width: 1600px) {
-    .mainHeader {
-        height: 8rem;
-    }
-}
-
 .mainHeader .container {
     padding: 0;
-    margin-left: 2rem;
+    margin: 0 2rem;
     max-width: 100%;
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1101px) {
     .mainHeader .container {
         margin: 0 10rem;
     }
 }
 
-.mainHeader svg {
-    width: 7rem;
-}
-@media screen and (min-width: 1600px) {
-    .mainHeader svg {
-        width: initial;
-    }
+.mainHeader .container .content-container .mainNav .mainItem.search .search-border #close-search {
+    top: 0.6rem;
 }
 
-.mainHeader .container .content-container .mainNav .navItems .navItemsContainer .mainItem .parentTitle.docs.active,
-.mainHeader .container .content-container .mainNav .navItems .navItemsContainer .mainItem .parentTitle.tutorials.active {
-    color: #de3412;
+.mainHeader.active-search .container .mainNav .mainItem.search .search-border #input {
+    height: 3.3rem;
+}
+
+.mainHeader.active-search .container .mainNav .mainItem.search .search-border ::placeholder,
+.mainHeader.active-search .container .mainNav .mainItem.search .search-border :-ms-input-placeholder,
+.mainHeader.active-search .container .mainNav .mainItem.search .search-border ::-ms-input-placeholder {
+    color: #262626;
+    opacity: 1;
 }
 
 footer {
