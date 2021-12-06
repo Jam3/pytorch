@@ -28,9 +28,17 @@ body>img {
     opacity: 1;
 }
 
-footer {
+.Footer {
     position: relative;
     z-index: 1;
+}
+
+.Footer .footerNav .mainItem a {
+    color: #bbbbbb;
+}
+
+.Footer .mainNav .footerNav .mainItem > ul {
+    margin-top: 2rem;
 }
 
 /*Main Footer exceptions*/
