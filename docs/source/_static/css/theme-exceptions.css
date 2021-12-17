@@ -33,6 +33,12 @@ body>img {
     z-index: 1;
 }
 
+.Footer .mainNav,
+.Footer .legalNav {
+    padding-left: 0rem;
+    padding-right: 0;
+    max-width: 90%;
+}
 .Footer .footerNav .mainItem a {
     color: #bbbbbb;
 }
