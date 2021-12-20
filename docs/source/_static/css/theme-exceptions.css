@@ -2,6 +2,10 @@ body>img {
     display:none;
 }
 
+.mainHeader {
+    position: sticky;
+}
+
 .mainHeader .container {
     padding: 0;
     margin: 0 2rem;
@@ -15,6 +19,11 @@ body>img {
 
 .mainHeader .container .content-container .mainNav .mainItem.search .search-border #close-search {
     top: 0.6rem;
+}
+
+.mainHeader .container .content-container .mainNav .navItems a.parentTitle,
+.mainHeader .container .content-container .mainNav .navItems .subitems-container .subItem a.link {
+    color: #262626;
 }
 
 .mainHeader.active-search .container .mainNav .mainItem.search .search-border #input {
