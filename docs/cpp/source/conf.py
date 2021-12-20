@@ -82,7 +82,7 @@ exhale_args = {
     # Fix broken Sphinx RTD Theme 'Edit on GitHub' links
     # Search for 'Edit on GitHub' on the FAQ:
     #     http://exhale.readthedocs.io/en/latest/faq.html
-    "pageLevelConfigMeta": ":github_url: https://github.com/pytorch/pytorch",
+    #"pageLevelConfigMeta": ":github_url: https://github.com/pytorch/pytorch",
     ############################################################################
     # Individual page layout example configuration.                            #
     ############################################################################
