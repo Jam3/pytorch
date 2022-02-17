@@ -86,3 +86,127 @@ torch.backends.openmp
 ^^^^^^^^^^^^^^^^^^^^^
 
 .. autofunction::  torch.backends.openmp.is_available
+
+
+
+.. container:: cards
+
+  .. container:: title
+
+    RELATED TUTORIALS
+  
+  .. container:: description
+
+    Lorem ipsum dolor sit amet, consectetur
+  
+  .. container:: cards-container
+
+    .. container:: card
+
+      .. container:: image
+        
+        .. image:: _static/img/card1.png
+
+      .. container:: featured
+
+        FEATURED
+
+      .. container:: title
+
+        Tutorial
+
+      .. container:: subtitle
+
+        Learn the Basics
+
+      .. container:: description
+
+        A step-by-step guide to building a complete ML workflow with PyTorch.
+
+      .. container:: tags
+
+        tag 1, tag 2, tag 3
+
+    .. container:: card
+      
+      .. container:: image
+        
+        .. image:: _static/img/card2.png
+
+      .. container:: title
+
+        Tutorial
+
+      .. container:: subtitle
+
+        Sequence-to-Sequence Modeling with nn.Transformer and torchtext
+
+      .. container:: description
+
+        A step-by-step guide to building a complete ML workflow with PyTorch.
+
+      .. container:: tags
+
+        tag 1, tag 2, tag 3
+
+
+
+.. container:: cards
+
+  .. container:: title
+
+    EXAMPLES
+  
+  .. container:: description
+
+    Below is a gallery of examples
+  
+  .. container:: cards-container
+
+    .. container:: card
+      
+      .. container:: image
+
+        .. image:: _static/img/card1.png
+
+      .. container:: featured
+
+        FEATURED
+
+      .. container:: title
+
+        Example
+
+      .. container:: subtitle
+
+        Learn the Basics
+
+      .. container:: description
+
+        A step-by-step guide to building a complete ML workflow with PyTorch.
+
+      .. container:: tags
+
+        tag 1, tag 2, tag 3
+
+    .. container:: card
+
+      .. container:: image
+        
+        .. image:: _static/img/card2.png
+
+      .. container:: title
+
+        Example
+
+      .. container:: subtitle
+
+        Sequence-to-Sequence Modeling with nn.Transformer and torchtext
+
+      .. container:: description
+
+        A step-by-step guide to building a complete ML workflow with PyTorch.
+
+      .. container:: tags
+
+        tag 1, tag 2, tag 3

@@ -245,12 +245,14 @@ flags, and are at an early stage for feedback and testing. `View All Prototype <
       
       Notes ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
 
-      .. toctree::
-         :glob:
-         :maxdepth: 1
-         :caption: Notes
+      .. container:: onecolumn
 
-         notes/*
+         .. toctree::
+            :glob:
+            :maxdepth: 1
+            :caption: Notes
+
+            notes/*
 
 .. toctree::
    :glob:
@@ -258,5 +260,5 @@ flags, and are at an early stage for feedback and testing. `View All Prototype <
    :hidden:
    :caption: Indices and tables
    
-   Index <https://pytorch.org/genindex.html>
-   Module Index <https://pytorch.org/py-modindex.html>  
+   genindex
+   py-modindex

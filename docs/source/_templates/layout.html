@@ -14,10 +14,9 @@
 {% block menu %}
   {% if release == "master" %}
     <div class="unstable">
-      <a href="{{ theme_canonical_url }}{{ pagename }}.html">
         You are viewing unstable developer preview docs.
-        Click here to view docs for latest stable release.
-      </a>
+        <a href="{{ theme_canonical_url }}{{ pagename }}.html">Click here</a>
+        to view docs for latest stable release.
     </div>
   {% endif %}
   {{ super() }}
@@ -25,11 +24,6 @@
 
 {% block sidebartitle %}
 <div class="versions">
-  <select class="version-select">
-    {% for item in static_versions %}
-      <option value="{{ item.url }}">{{ item.slug }}</option>
-    {% endfor %}
-  </select>
   <div class="current-version">{{ version }} <span></span></div>
   <ul class="custom-select">
     {% for item in static_versions %}
@@ -58,9 +52,6 @@
 
 {% block footer %}
 {{ super() }}
-<script script type="text/javascript">
-  var collapsedSections = ['Notes', 'Language Bindings', 'Libraries', 'Community'];
-</script>
 
 <img height="1" width="1" style="border-style:none;" alt="" src="https://www.googleadservices.com/pagead/conversion/795629140/?label=txkmCPmdtosBENSssfsC&amp;guid=ON&amp;script=0"/>
 {% endblock %}
